@@ -41,7 +41,7 @@ public class ArraySize {
         System.out.println("Количество чисел равных 1: " + one);
         System.out.println("Количество чётных чисел: " +  everNumber);
         System.out.println("Количество нечётных чисел: " +  oddNumber);
-        System.out.println("Сумма всех элементов массива: " + sum);
+
 
         }
     }
