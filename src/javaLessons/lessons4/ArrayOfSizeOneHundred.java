@@ -5,13 +5,13 @@ import java.util.Random;
 
 public class ArrayOfSizeOneHundred {
     public static void main(String[] args) {
-        int arrayMax = 10;
+        int arrayMax = 100;
         int[] array = new int[arrayMax];
         Random random = new Random();
 
         int max = 0;
         int min = arrayMax;
-        int number = 30;
+        int number = 10000;
         int zero = 0;
         int sum = 0;
 
