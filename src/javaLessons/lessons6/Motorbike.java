@@ -1,7 +1,6 @@
-package javaLessons.lessons5;
+package javaLessons.lessons6;
 
 public class Motorbike {
-
     public String getColor() {
         return Color;
     }
@@ -14,9 +13,10 @@ public class Motorbike {
         return Model;
     }
 
+
     public String Color;
-        public int YearOfIssue;
-        public String Model;
+    public int YearOfIssue;
+    public String Model;
 
     public Motorbike(String color, int yearOfIssue, String model) {
         this.Color = color;
@@ -24,7 +24,13 @@ public class Motorbike {
         this.Model = model;
     }
 
-    public void info() {
+     public void info(){
+        System.out.println("Это мотоцикл!");
     }
+
+     public int yearDifference(int years){ return years - YearOfIssue; }
+
+
+
 }
 
