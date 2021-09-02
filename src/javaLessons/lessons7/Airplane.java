@@ -1,4 +1,4 @@
-package javaLessons.lessons6;
+package javaLessons.lessons7;
 
 public class Airplane {
 
@@ -15,8 +15,6 @@ public class Airplane {
         this.setWeight(weight);
         this.setFuel(0);
     }
-
-
 
     public String getProducer() {
         return producer;
@@ -66,4 +64,13 @@ public class Airplane {
     public void fillUp(int additionFuel) {
         fuel += additionFuel;
     }
+
+    public static void compareAirplanes(Airplane airplane1, Airplane airplane2) {
+if(airplane1.getLength() > airplane2.getLength()) {
+    System.out.println("Первый самолёт длинее второго!");
+} else if(airplane1.getLength() < airplane2.getLength()) {
+            System.out.println("Второй самолёт длинее первого!");
+        }
+    }
+
 }
