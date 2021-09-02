@@ -8,7 +8,7 @@ public class Main {
         airplane1.fillUp(20);
         airplane2.fillUp(35);
         airplane1.setYear(2019);
-        airplane2.setLength(30);
+        airplane2.setLength(40);
 
         Airplane.compareAirplanes(airplane1, airplane2);
 
